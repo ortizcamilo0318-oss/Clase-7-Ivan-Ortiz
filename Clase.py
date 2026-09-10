@@ -12,16 +12,18 @@ style.arranque("Clase")
 style.barra_lateral(NOMBRE)
 
 style.hero(
-    "Clase 7",
+    "Clase 7 : Oscar Orozco",
     "Git, GitHub y Streamlit. La introducción de hoy está en esta página; las demás son el tablero.",
     marca="Machine Learning en Economía y Finanzas · FCEA",
 )
 
-g1, g2, g3, g4 = st.columns(4)
+g1, g2, g3, g4, g5 = st.columns(5)
 g1.metric("Git", "versiono")
 g2.metric("GitHub", "comparto")
 g3.metric("Streamlit", "construyo")
 g4.metric("Cloud", "publico")
+g5.metric("Modificando", "Mi app")
+
 
 c1, c2, c3, c4 = st.columns(4)
 c1.page_link("pages/1_Mercado.py", label="Mercado")

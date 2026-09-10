@@ -17,7 +17,7 @@ style.hero("Mercado", "Precio y retorno del activo seleccionado.")
 nombres = list(data.ACTIVOS.keys())
 idx = nombres.index(ACTIVO_INICIAL) if ACTIVO_INICIAL in nombres else 0
 activo = st.selectbox("Activo", nombres, index=idx)
-dias = st.slider("Ventana (días hábiles)", 30, 180, DIAS_INICIAL)
+dias = st.slider("Ventana (días hábiles)", 90, 360, DIAS_INICIAL)
 vista = st.radio("Vista", ["Precio", "Retorno"], horizontal=True)
 
 serie = data.serie_precios(activo, dias=dias)
