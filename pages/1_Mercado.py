@@ -12,7 +12,7 @@ DIAS_INICIAL = 90
 
 style.arranque("Mercado")
 style.barra_lateral()
-style.hero("Mercado", "Precio y retorno del activo seleccionado.")
+style.hero("Mercado:Oscar Orozco", "Precio y retorno del activo seleccionado.")
 
 nombres = list(data.ACTIVOS.keys())
 idx = nombres.index(ACTIVO_INICIAL) if ACTIVO_INICIAL in nombres else 0

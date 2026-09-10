@@ -13,7 +13,7 @@ MONTO_FUTURO = 6_000_000
 
 style.arranque("Calculadora")
 style.barra_lateral()
-style.hero("Calculadora", "Valor futuro de un capital y valor presente de un monto.")
+style.hero("Calculadora: Oscar Orozco", "Valor futuro de un capital y valor presente de un monto.")
 
 st.latex(r"VF = C\,(1+r)^{n}\qquad VP = \dfrac{M}{(1+r)^{n}}")
 
