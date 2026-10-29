@@ -13,7 +13,7 @@ TEXTO = "Texto de ejemplo"
 
 style.arranque("Laboratorio")
 style.barra_lateral()
-style.hero("Laboratorio: Oscar Orozco", "Cada comando aparece en pantalla.")
+style.hero("Laboratorio: Ivan Camilo Ortiz Sierra", "Cada comando aparece en pantalla.")
 
 st.subheader("Entradas")
 c1, c2 = st.columns(2)

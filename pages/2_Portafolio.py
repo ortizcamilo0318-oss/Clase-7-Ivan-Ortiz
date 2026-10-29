@@ -12,7 +12,7 @@ ACTIVOS_INICIALES = ["ECOPETROL", "TES 2028"]
 
 style.arranque("Portafolio")
 style.barra_lateral()
-style.hero("Portafolio:Oscar Orozco", "Composición por pesos y archivo CSV.")
+style.hero("Portafolio:Ivan Camilo Ortiz Sierra", "Composición por pesos y archivo CSV.")
 
 todos = list(data.ACTIVOS.keys())
 elegidos = st.multiselect(
